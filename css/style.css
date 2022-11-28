@@ -10,7 +10,7 @@
 }
 :root{
     --bg-color:#2a2a2a;
-    --second-bg-color: #202020;
+    --second-big-color: #202020;
     --text-color: #fff;
     --second-color: #ccc;
     --main-color: #ff4d05;
@@ -79,3 +79,96 @@ span{
     display: none;
  }
 
+section{
+    padding: 160px 15% 120px;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image:url(../img/fabio-oyXis2kALVg-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.slide{
+    margin-bottom: 20px;
+}
+.one{
+    display: inline-block;
+    margin-right: 15px;
+    height: 32px;
+    padding: 0 15px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: var(--main-color);
+    color: var(--text-color);
+}
+.two{
+    display: inline-block;
+    color: var(--second-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-text h1{
+    font-size: var(--big-font);
+    font-weight: 700;
+    color: var(--text-color); 
+    list-style: 1.1;
+    margin:  0 0 8px;
+}
+
+.home-text h3{
+    color: var(--text-color);
+    margin: 0 0 35px;
+    font-size:  3rem;
+    lighting-color: 1.1;
+    font-weight: 700;
+
+}
+
+
+.home-text p{
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--main-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transform: all .45s ease;
+
+}
+
+.btn:hover{
+    transform: scale(0.9);
+}
+
+.btn2{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 35px;
+}
